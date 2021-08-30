@@ -1,0 +1,14 @@
+.order-form {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-box {
+  margin-bottom: 20px;
+}
+
+.error-message {
+  margin-top: 15px;
+  color: red;
+}

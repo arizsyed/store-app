@@ -1,4 +1,4 @@
-.custom-button {
+.btn {
   min-width: 165px;
   width: auto;
   height: 50px;
@@ -6,7 +6,6 @@
   line-height: 50px;
   padding: 0 35px 0 35px;
   font-size: 16px;
-  background-color: black;
   font-family: "Open Sans Condensed";
   color: white;
   text-transform: uppercase;
@@ -17,8 +16,24 @@
   justify-content: center;
 }
 
-.custom-button:hover {
+.btn-regular {
+  background-color: black;
+  color: white;
+}
+
+.btn-regular:hover {
   background-color: white;
   color: black;
   border: 1px solid black;
+}
+
+.btn-inverted {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid black;
+}
+
+.btn-inverted:hover {
+  background-color: #000;
+  color: #fff;
 }

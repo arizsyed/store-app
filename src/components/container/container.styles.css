@@ -2,4 +2,14 @@
   height: 88vh;
   width: 100%;
   padding: 25px;
+  overflow: auto;
+}
+
+.container::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent;
+}
+.container::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: black;
 }

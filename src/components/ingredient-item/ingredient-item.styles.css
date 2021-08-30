@@ -5,6 +5,16 @@
   height: 350px;
   align-items: center;
   position: relative;
+  flex: 1 1 auto;
+  margin: 0 7.5px 15px;
+}
+
+.ingredient-item .btn {
+  width: 80%;
+  opacity: 0.7;
+  position: absolute;
+  top: 225px;
+  display: none;
 }
 
 .ingredient-img {
@@ -13,6 +23,15 @@
   background-size: cover;
   background-position: center;
   margin-bottom: 5px;
+}
+
+.ingredient-item:hover .ingredient-img {
+  opacity: 0.8;
+}
+
+.ingredient-item:hover .btn {
+  opacity: 0.85;
+  display: flex;
 }
 
 .ingredient-item-footer {
